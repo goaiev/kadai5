@@ -8,7 +8,7 @@ class Enemy < Sprite
     end
   end
 
-  # 他のオブジェクトから衝突された際に呼ばれるメソッド
+  # ���̃I�u�W�F�N�g����Փ˂��ꂽ�ۂɌĂ΂�郁�\�b�h
   def hit(obj)
     self.vanish
   end
